@@ -4,16 +4,10 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
-  # pull_request:
-  #   types:
-  #     - closed
-  #   branches:
-  #     - master
+      - main
 
 jobs:
   release:
-    # if: github.event_name == 'workflow_dispatch' || github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -22,14 +16,5 @@ jobs:
           fetch-depth: 0
       - name: Semantic release
         uses: cycjimmy/semantic-release-action@v2
-        with:
-          extra_plugins: |
-            @semantic-release/git
-            @semantic-release/changelog
-            conventional-changelog-conventionalcommits
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Commit back
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Release
