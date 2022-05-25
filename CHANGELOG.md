@@ -1,3 +1,16 @@
+## [1.3.0](https://github.com/b12k/sandbox-sematic-release-gh-action/compare/v1.2.0...v1.3.0) (2022-05-25)
+
+
+### Features
+
+* dispatch on master push ([cea1534](https://github.com/b12k/sandbox-sematic-release-gh-action/commit/cea1534aa4845ecf6f8110d92a3d2d084a0a6126))
+* test ([99938c6](https://github.com/b12k/sandbox-sematic-release-gh-action/commit/99938c6d66c132922eb9d379699736e66d21cc17))
+
+
+### Bug Fixes
+
+* gh typo ([fd30613](https://github.com/b12k/sandbox-sematic-release-gh-action/commit/fd306139b9590cf1be38434e79581ea8dc5dbe49))
+
 ## [1.2.0](https://github.com/b12k/sandbox-sematic-release-gh-action/compare/v1.1.0...v1.2.0) (2022-05-25)
 
 
