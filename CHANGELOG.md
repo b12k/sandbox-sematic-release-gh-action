@@ -1,3 +1,10 @@
+## [1.5.0](https://github.com/b12k/sandbox-sematic-release-gh-action/compare/v1.4.0...v1.5.0) (2022-05-25)
+
+
+### Features
+
+* another test ([3ae04ee](https://github.com/b12k/sandbox-sematic-release-gh-action/commit/3ae04ee293e5b6a8df3a91dbe7715fe3c4140700))
+
 ## [1.4.0](https://github.com/b12k/sandbox-sematic-release-gh-action/compare/v1.3.0...v1.4.0) (2022-05-25)
 
 
