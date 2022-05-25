@@ -15,12 +15,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - name: Semantic release
         uses: cycjimmy/semantic-release-action@v2
         with:
           extra_plugins: |
-            @semantic-release/changelog
             @semantic-release/git
+            @semantic-release/changelog
             conventional-changelog-conventionalcommits
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit back
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Release
