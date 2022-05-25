@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/b12k/sandbox-sematic-release-gh-action/compare/v1.3.0...v1.4.0) (2022-05-25)
+
+
+### Features
+
+* run always ([b27e2c3](https://github.com/b12k/sandbox-sematic-release-gh-action/commit/b27e2c3511ceb4d20afe45d7c8c2e5ca7553f1d4))
+
 ## [1.3.0](https://github.com/b12k/sandbox-sematic-release-gh-action/compare/v1.2.0...v1.3.0) (2022-05-25)
 
 
