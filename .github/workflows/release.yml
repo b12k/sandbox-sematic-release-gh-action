@@ -2,10 +2,9 @@ name: Release
 
 on:
   workflow_dispatch:
-  on:
-    push:
-      branches:
-        - master
+  push:
+    branches:
+      - master
   # pull_request:
   #   types:
   #     - closed
